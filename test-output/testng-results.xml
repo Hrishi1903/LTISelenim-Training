@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100" started-at="2021-11-17T17:43:38 IST" finished-at="2021-11-17T17:43:38 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="MobileApplication.mobilelogin()[pri:0, instance:testng.MobileApplication@32d2fa64]" name="mobilelogin" class="testng.MobileApplication"/>
+        <method signature="WebApplication.weblogin()[pri:0, instance:testng.WebApplication@26a7b76d]" name="weblogin" class="testng.WebApplication"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="100" started-at="2021-11-17T17:43:38 IST" finished-at="2021-11-17T17:43:38 IST">
+      <class name="testng.MobileApplication">
+        <test-method status="PASS" signature="mobilelogin()[pri:0, instance:testng.MobileApplication@32d2fa64]" name="mobilelogin" duration-ms="16" started-at="2021-11-17T17:43:38 IST" finished-at="2021-11-17T17:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+      </class> <!-- testng.MobileApplication -->
+      <class name="testng.WebApplication">
+        <test-method status="PASS" signature="weblogin()[pri:0, instance:testng.WebApplication@26a7b76d]" name="weblogin" duration-ms="4" started-at="2021-11-17T17:43:38 IST" finished-at="2021-11-17T17:43:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+      </class> <!-- testng.WebApplication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
